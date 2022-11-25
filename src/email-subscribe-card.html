@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Email Subscription Card</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body class="bg-zinc-700 px-6 sm:px-20 md:px-24">
+        <div class="flex h-screen items-center p-4">
+            <div
+                class="mx-auto my-auto flex w-fit flex-col rounded-xl bg-zinc-800 px-3 py-3 text-white md:flex-row"
+            >
+                <div
+                    class="inline-block h-[340px] rounded-xl bg-[url('../assets/images/bai1/image.jpg')] bg-cover bg-no-repeat md:h-[300px] md:w-[200px] md:rounded-tr-none md:rounded-br-none"
+                ></div>
+                <div
+                    class="my-auto px-8 py-8 text-center sm:px-10 md:text-left"
+                >
+                    <h1 class="mb-4 text-2xl">
+                        Get diet and fitness tips in your inbox.
+                    </h1>
+                    <p class="btn-red mb-4">
+                        Eat better and exercise better. Sign up for the
+                        Diet&Fitness newletter.
+                    </p>
+                    <form action="" class="flex flex-col md:flex-row">
+                        <input
+                            type="email"
+                            class="bg-primary my-3 w-full basis-3/4 rounded-none border border-gray-600 bg-transparent px-4 py-3 text-[#ccc] outline-0 transition-all focus:border-[#84CC16] md:mr-2 md:rounded-lg"
+                            placeholder="Enter email"
+                        />
+                        <input
+                            type="submit"
+                            value="Subscribe"
+                            class="my-3 w-full basis-1/4 rounded-lg bg-[#84CC16] px-4 py-3 text-black transition-all hover:cursor-pointer hover:opacity-80 md:ml-2"
+                        />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

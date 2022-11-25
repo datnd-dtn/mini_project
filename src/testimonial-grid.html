@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Testimonial Grid</title>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: '#ffffff',
+                            secondary: '#1A4FD6',
+                            gray: '#ccc'
+                        }
+                    }
+                }
+            };
+        </script>
+    </head>
+    <body class="bg-[#E5E7EB]">
+        <div class="mx-auto my-10 w-5/6">
+            <div
+                class="grid-auto-rows: 1fr; grid grid-cols-1 gap-6 text-white md:grid-cols-4"
+            >
+                <div
+                    class="relative z-20 w-full rounded-2xl bg-[#6D28D9] px-10 py-10 shadow-lg md:col-span-2"
+                >
+                    <div class="absolute right-[10%] top-0 z-[-1] w-[150px]">
+                        <img
+                            src="./images/icon-quote-left.png"
+                            alt=""
+                            class="w-full opacity-80"
+                        />
+                    </div>
+                    <div class="mb-2 inline-block">
+                        <div
+                            class="float-left mr-4 mb-2 h-10 w-10 overflow-hidden rounded-full ring-2 ring-[#905ee0]"
+                        >
+                            <img
+                                src="./images/image-daniel.jpg"
+                                alt=""
+                                class="object-cover"
+                            />
+                        </div>
+                        <div class="float-left mb-2 font-bold">
+                            <h3 class="text-sm">Danial Cliford</h3>
+                            <p class="text-sm opacity-70">Verified Graduate</p>
+                        </div>
+                    </div>
+                    <p class="mb-6 text-lg font-bold">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+                    <p class="font-bold opacity-70">
+                        "Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.
+                        <span class="block truncate"
+                            >It has survived not only five centuries, but also
+                            the leap into electronic typesetting, remaining
+                            essentially unchanged.It was popularised in the
+                            1960s with the release of"</span
+                        >
+                    </p>
+                </div>
+                <div
+                    class="rounded-2xl bg-[#4B5563] px-10 py-10 shadow-lg md:w-full"
+                >
+                    <div class="mb-2 inline-block">
+                        <div
+                            class="float-left mr-4 mb-2 h-10 w-10 overflow-hidden rounded-full ring-2 ring-[#905ee0]"
+                        >
+                            <img
+                                src="./images/image-jonathan.jpg"
+                                alt=""
+                                class="object-cover"
+                            />
+                        </div>
+                        <div class="float-left mb-2 font-bold">
+                            <h3 class="text-sm">Jonathan Walters</h3>
+                            <p class="text-sm opacity-70">Verified Graduate</p>
+                        </div>
+                    </div>
+                    <p class="mb-6 text-lg font-bold">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                    </p>
+                    <p class="font-bold opacity-70">
+                        "Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s."
+                    </p>
+                </div>
+                <div
+                    class="rounded-2xl bg-white px-10 py-10 shadow-lg md:row-span-2 md:w-full"
+                >
+                    <div class="mb-2 inline-block">
+                        <div
+                            class="float-left mr-4 mb-2 h-10 w-10 overflow-hidden rounded-full ring-2 ring-[#905ee0]"
+                        >
+                            <img
+                                src="./images/image-kira.jpg"
+                                alt=""
+                                class="object-cover"
+                            />
+                        </div>
+                        <div class="float-left mb-2">
+                            <h3 class="text-sm text-black">Kira Wilttle</h3>
+                            <p class="text-sm text-[#999] opacity-70">
+                                Verified Graduate
+                            </p>
+                        </div>
+                    </div>
+                    <p class="mb-6 text-lg text-black">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                    </p>
+                    <p class="text-[#999] opacity-70">
+                        "Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release
+                        of.Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                        <span class="block truncate"
+                            >Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer
+                            took a galley of type and scrambled it to make a
+                            type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release."</span
+                        >
+                    </p>
+                </div>
+                <div class="w-full rounded-2xl bg-white px-10 py-10 shadow-lg">
+                    <div class="mb-2 inline-block">
+                        <div
+                            class="float-left mr-4 mb-2 h-10 w-10 overflow-hidden rounded-full ring-2 ring-[#905ee0]"
+                        >
+                            <img
+                                src="./images/image-jeanette.jpg"
+                                alt=""
+                                class="object-cover"
+                            />
+                        </div>
+                        <div class="float-left mb-2">
+                            <h3 class="text-sm text-black">Jeanette Harmon</h3>
+                            <p class="text-sm text-[#999] opacity-70">
+                                Verified Graduate
+                            </p>
+                        </div>
+                    </div>
+                    <p class="mb-6 text-lg text-black">
+                        Lorem Ipsum is simply dummy text of the printing.
+                    </p>
+                    <p class="text-[#999] opacity-70">
+                        "Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s."
+                    </p>
+                </div>
+                <div
+                    class="rounded-2xl bg-[#111827] px-10 py-10 shadow-lg md:col-span-2 md:w-full"
+                >
+                    <div class="mb-2 inline-block">
+                        <div
+                            class="float-left mr-4 mb-2 h-10 w-10 overflow-hidden rounded-full ring-2 ring-[#905ee0]"
+                        >
+                            <img
+                                src="./images/image-patrick.jpg"
+                                class="object-cover"
+                            />
+                        </div>
+                        <div class="float-left mb-2 font-bold">
+                            <h3 class="text-sm">Patrick Abrams</h3>
+                            <p class="text-sm opacity-70">Verified Graduate</p>
+                        </div>
+                    </div>
+                    <p class="mb-6 text-lg font-bold">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+                    <p class="font-bold opacity-70">
+                        "Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.
+                        <span class="block truncate"
+                            >It has survived not only five centuries, but also
+                            the leap into electronic typesetting, remaining
+                            essentially unchanged. "</span
+                        >
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
