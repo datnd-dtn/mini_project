@@ -542,18 +542,6 @@ video {
   top: 0px;
 }
 
-.right-\[10\%\] {
-  right: 10%;
-}
-
-.right-\[12\%\] {
-  right: 12%;
-}
-
-.right-\[18\%\] {
-  right: 18%;
-}
-
 .right-\[14\%\] {
   right: 14%;
 }
@@ -696,8 +684,8 @@ video {
   width: 1rem;
 }
 
-.w-5\/6 {
-  width: 83.333333%;
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-\[150px\] {
@@ -706,26 +694,6 @@ video {
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-5\/12 {
-  width: 41.666667%;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
-}
-
-.w-9\/12 {
-  width: 75%;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
-}
-
-.w-4\/6 {
-  width: 66.666667%;
 }
 
 .max-w-\[1000px\] {
@@ -1005,10 +973,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-8 {
   padding: 2rem;
 }
@@ -1083,11 +1047,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1141,10 +1100,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .font-medium {
@@ -1514,10 +1469,6 @@ video {
     width: 100%;
   }
 
-  .md\:w-11\/12 {
-    width: 91.666667%;
-  }
-
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1542,10 +1493,6 @@ video {
     border-bottom-right-radius: 0px;
   }
 
-  .md\:p-10 {
-    padding: 2.5rem;
-  }
-
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -1566,11 +1513,6 @@ video {
     padding-right: 0.5rem;
   }
 
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
@@ -1583,10 +1525,6 @@ video {
 
   .lg\:w-5\/6 {
     width: 83.333333%;
-  }
-
-  .lg\:w-4\/6 {
-    width: 66.666667%;
   }
 
   .lg\:grid-cols-5 {
@@ -1605,11 +1543,6 @@ video {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
-
-  .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -1617,51 +1550,7 @@ video {
     height: 100vh;
   }
 
-  .xl\:w-4\/6 {
-    width: 66.666667%;
-  }
-
-  .xl\:w-5\/6 {
-    width: 83.333333%;
-  }
-
   .xl\:w-11\/12 {
     width: 91.666667%;
-  }
-
-  .xl\:w-10\/12 {
-    width: 83.333333%;
-  }
-
-  .xl\:items-center {
-    align-items: center;
-  }
-
-  .xl\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .xl\:p-20 {
-    padding: 5rem;
-  }
-
-  .xl\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .xl\:py-40 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
-  .xl\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
-  .xl\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
   }
 }
